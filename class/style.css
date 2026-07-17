@@ -1,3 +1,61 @@
-h2{
+/* element selector */
+p{
+    /* external css */
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+/* class-selector */
+.external-css:hover{
+    color: violet;
+     font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+a:visited{
+    color: red;
+}
+a:active{
     color: green;
+}
+
+/* id selector */
+#style{
+    color: red;
+}
+/* universal selector */
+*{
+    background-color: rgb(116, 19, 116);
+}
+/* group selector */
+h3,h4,{
+    color: yellow;
+    font-style:oblique;
+    font-weight: bold;
+    
+
+}
+h1
+{
+    text-decoration: underline;
+    color: blue;
+}
+t-child{
+    color: red;
+}
+/* border */
+div{
+    width: 300px;
+    border: 15px burlywood dotted;
+    padding: 30px;
+    margin: 60px;
+}
+body{
+    background-color: bisque;
+    background-image: url(../photo.jpeg);
+    background-repeat: no-repeat;
+
 }
