@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary:#1B4F72;
+    --accent:#F18F01;
+    --text:#2C3E50;
+    --light:#F4F6F8;
+    --white:#FFFFFF;
+    --font-main:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family: var(--font-main);
+    color: var(--text);
+    line-height: 1.6em;
+    background: #FFFFFF;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: var(--primary);
+
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color:var(--white);
+}
+.nav-link{
+    list-style:none;
+    display: flex;
+    gap:30px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+
+}
+.nav-link a:hover{
+    color: var(--accennt);
+}
+.hero-section{
+    background:rgb(56, 109, 187);
+    color: #9ac0e6;
+    text-align:center;
+}
+.hero-section h1{
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
